@@ -32,6 +32,7 @@
 
 - [Libraries](#-libraries)
 - [Dependencies](#-dependencies)
+- [Example](#-example)
 - [Get Started](#get-started)
   - [Use Template](#use-template)
   - [Create Alexa Skill](#create-alexa-skill)
@@ -58,6 +59,12 @@
 - [Node.js](https://nodejs.org) 14 or later
 - [Yarn](https://yarnpkg.com/) Optional/Recommended
 - [Ask](https://www.npmjs.com/package/ask-cli) Last Version
+
+## 🎥 Example
+
+To enable the skill in the Alexa app in the `Skills\Developer` tab to use on your mobile | Alexa device
+
+![Example image](./images/Example.png)
 
 ## Get Started
 
