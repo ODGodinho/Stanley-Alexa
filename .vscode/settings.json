@@ -5,6 +5,7 @@
     ],
     "conventionalCommits.scopes": [
         "Init",
-        "Doc"
+        "Doc",
+        "Deploy"
     ]
 }
