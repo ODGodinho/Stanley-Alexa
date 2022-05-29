@@ -70,7 +70,7 @@ Click in use this template button and clone template project
 
 Copy .env.example to .env and change the values according to your needs.
 
-![Image Example](./template/img/AlexaUUID.png)
+![Image Example](./images/AlexaUUID.png)
 
 ```bash
 chmod 776 ./start.sh ./build.sh
