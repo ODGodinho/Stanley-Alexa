@@ -4,6 +4,7 @@
         "sprintf"
     ],
     "conventionalCommits.scopes": [
-        "Init"
+        "Init",
+        "Doc"
     ]
 }

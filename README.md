@@ -10,7 +10,7 @@
 
 <p align="center">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/ODGodinho/Happy-ReactJs">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/ODGodinho/Stanley-Alexa">
 
   <a href="https://www.linkedin.com/in/victor-alves-odgodinho/">
     <img alt="Made by ODGodinho" src="https://img.shields.io/badge/made%20by-ODGodinho-%2304D361">
