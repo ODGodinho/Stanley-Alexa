@@ -1,0 +1,34 @@
+{
+  "name": "stanley-alexa",
+  "version": "0.1",
+  "description": "Stanley for Alexa skill",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc --watch",
+    "build": "./build.sh",
+    "init": "./start.sh"
+  },
+  "author": "DragonsGamers",
+  "license": "MIT",
+  "dependencies": {
+    "ask-sdk-core": "^2.7.0",
+    "ask-sdk-model": "^1.19.0",
+    "aws-sdk": "^2.326.0",
+    "axios": "^0.26.0",
+    "i18next": "^21.3.3",
+    "i18next-sprintf-postprocessor": "^0.2.2"
+  },
+  "devDependencies": {
+    "@odg/eslint-config-odg-linter-js": "*",
+    "@types/i18next-sprintf-postprocessor": "*",
+    "@typescript-eslint/eslint-plugin": "*",
+    "@typescript-eslint/parser": "*",
+    "eslint": "*",
+    "eslint-config-airbnb-typescript": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-jsdoc": "*",
+    "eslint-plugin-promise": "*",
+    "typescript": "^4.7.2"
+  }
+}

@@ -1,0 +1,29 @@
+{
+	"env": {
+		"es2021": true,
+		"node": true,
+		"jest": true
+	},
+	"parser": "@typescript-eslint/parser",
+	"extends": [
+		"airbnb-typescript/base",
+		"@odg/odg-linter-js"
+	],
+	"plugins": [
+		"@typescript-eslint",
+		"import"
+	],
+	"parserOptions": {
+		"ecmaVersion": 12,
+		"sourceType": "module",
+		"project": "./tsconfig.json"
+	},
+	"rules": {
+		"jsdoc/check-tag-names": [ "error", {
+            "definedTags": [
+                "task", // create @task [name](LINK)
+                "message" // create @message tag
+            ]
+        }]
+	}
+}

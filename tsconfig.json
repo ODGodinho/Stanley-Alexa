@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+      "baseUrl": ".",
+      "module": "commonjs",
+      "target": "es2018",
+      "rootDir": "./src",
+      "outDir": "./dist/lambda/build",
+      "lib": ["es6", "ES2021"],
+      "allowJs": true,
+      "removeComments": false,
+      "typeRoots": [
+          "./node_modules/@types",
+          "./src/@types"
+      ],
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "sourceMap": true,
+      "strictNullChecks": true
+  },
+  "exclude": [
+      "node_modules",
+      "src/tests"
+  ],
+  "include": [
+      "src/**/*"
+  ],
+  "typedocOptions":{
+      "out": "docs"
+  }
+}
