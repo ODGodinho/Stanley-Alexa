@@ -13,7 +13,7 @@ interface GithubResponse {
 export default class GithubStarsIntent implements RequestHandler {
 
     public async canHandle(handlerInput: HandlerInput): Promise<boolean> {
-        return IsIntent(handlerInput, IntentType.FollowersGithub);
+        return IsIntent(handlerInput, IntentType.GithubStars);
     }
 
     public async handle(handlerInput: HandlerInput): Promise<Response> {

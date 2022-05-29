@@ -1,7 +1,7 @@
 import { HandlerInput, RequestInterceptor } from "ask-sdk-core";
 import * as sprintf from "i18next-sprintf-postprocessor";
 import i18n from "i18next";
-import { LocaleType, messages } from "../Utilities/strings";
+import { messages } from "../Utilities/strings";
 
 /**
  * Adds translation functions to the RequestAttributes.
@@ -10,7 +10,7 @@ export default class LocalizationRequestInterceptor implements RequestIntercepto
 
     public async process(handlerInput: HandlerInput): Promise<void> {
         i18n.use(sprintf).init({
-            lng: handlerInput.requestEnvelope.request.locale?.toUpperCase() || LocaleType.ptBR,
+            lng: handlerInput.requestEnvelope.request.locale,
             overloadTranslationOptionHandler: sprintf.overloadTranslationOptionHandler,
             resources: messages,
             returnObjects: true,

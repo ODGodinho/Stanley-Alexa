@@ -1,7 +1,7 @@
 import MessagesPtBr from "../lang/pt-BR/messages";
 
 export enum LocaleType {
-    ptBR = "PT-BR",
+    ptBR = "pt-BR",
 }
 
 export const messages = {
