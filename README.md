@@ -36,6 +36,7 @@
   - [Use Template](#use-template)
   - [Create Alexa Skill](#create-alexa-skill)
   - [Prepare to develop](#prepare-to-develop)
+  - [Create example Intent](#create-example-intent)
   - [Start Project](#start-project)
 - [Prepare Deploy](#prepare-deploy)
 
@@ -94,6 +95,23 @@ ALEXA_SKILL_UUID="00000000-0000-0000-0000-000000000000"
 chmod 774 ./start.sh ./build.sh ./deploy.sh
 sh ./start.sh
 # Fill folder with name `dist`
+```
+
+### Create example Intent
+
+add in `skill-package/interactionModels/custom/<YOUR_LANG>.json` this intent
+after block `HelloWorldIntent`
+
+```json
+  {
+    "name": "GithubStarsIntent",
+    "slots": [],
+    "samples": [
+      "brilha brilha",
+      "my stars",
+      "minhas estrelas"
+    ]
+  },
 ```
 
 ### Start Project
