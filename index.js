@@ -1,1 +1,1 @@
-exports.handler  =  require("./build/index").handler;
+exports.handler = require("./build/index").handler;

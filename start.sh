@@ -11,6 +11,6 @@ fi
 
 ask init --hosted-skill-id amzn1.ask.skill.$ALEXA_SKILL_UUID
 
-cp -R ./dist/skill-package/ skill-package/
+cp -R ./dist/skill-package/ ./
 cp -R ./dist/ask-resources.json ask-resources.json
-cp -R ./dist/.ask .ask/
+cp -R ./dist/.ask ./
