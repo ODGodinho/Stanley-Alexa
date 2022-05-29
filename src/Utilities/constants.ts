@@ -12,5 +12,5 @@ export enum IntentType {
     Fallback = "AMAZON.FallbackIntent",
     HelloWorld = "HelloWorldIntent",
     PasswordInfo = "PasswordInfoIntent",
-    FollowersGithub = "FollowersGithubIntent",
+    GithubStars = "GithubStarsIntent",
 }
