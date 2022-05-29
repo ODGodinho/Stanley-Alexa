@@ -1,7 +1,7 @@
 import { ErrorHandler, HandlerInput } from "ask-sdk-core";
 import { Response } from "ask-sdk-model";
 import i18n from "i18next";
-import { MessagesKey } from "../Utilities/strings";
+import { MessagesKey } from "../Utilities/messages";
 
 /**
  * Unexpected errors which should be thrown when something

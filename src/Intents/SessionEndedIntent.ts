@@ -2,7 +2,7 @@ import { RequestHandler, HandlerInput } from "ask-sdk-core";
 import { IsType } from "../Utilities/helpers";
 import { RequestType } from "../Utilities/constants";
 import i18n from "i18next";
-import { MessagesKey } from "../Utilities/strings";
+import { MessagesKey } from "../Utilities/messages";
 import { Response } from "ask-sdk-model";
 
 export default class SessionEndedIntent implements RequestHandler {

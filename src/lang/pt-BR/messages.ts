@@ -1,4 +1,4 @@
-import { MessagesKey, MessagesInterface } from "../../Utilities/strings";
+import { MessagesKey, MessagesInterface } from "../../Utilities/messages";
 
 const Messages: MessagesInterface = {
     [MessagesKey.SKILL_NAME]: "Stanley Alexa",

@@ -3,7 +3,7 @@ import { IsIntent } from "../../Utilities/helpers";
 import { IntentType } from "../../Utilities/constants";
 import i18n from "i18next";
 import axios from "axios";
-import { MessagesKey } from "../../Utilities/strings";
+import { MessagesKey } from "../../Utilities/messages";
 import { Response } from "ask-sdk-model";
 
 interface GithubResponse {
